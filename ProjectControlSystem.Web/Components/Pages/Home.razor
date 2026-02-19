@@ -1,0 +1,21 @@
+﻿@page "/"
+@using ProjectControlSystem.Bll
+@using ProjectControlSystem.Core
+
+<PageTitle>Home</PageTitle>
+
+<h1>@cat.Name</h1>
+<h1>@cat.Age</h1>
+
+Welcome to your new app.
+
+
+@code{
+	private CatModel cat;
+
+	protected override void OnInitialized()
+	{
+		CatService catService = new CatService();
+		cat = catService.GetCat();
+	}
+}
