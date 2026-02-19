@@ -10,6 +10,8 @@ namespace ForDebug
             var a = new CatRepository();
 
             var i= a.GetCat();
+
+            Console.WriteLine("qqwqewcdcsa d d fds ");
         }
     }
 }
