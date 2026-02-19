@@ -12,6 +12,9 @@ namespace ForDebug
             var i= a.GetCat();
 
             Console.WriteLine("qqwqewcdcsa d d fds ");
+
+            //qweeww
+            //    xzcxzcxzc
         }
     }
 }
